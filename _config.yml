@@ -74,10 +74,13 @@ content:
           <h4 class="intro-bold"> Description </h4>
           평소에 결정을 잘 못하는 사람들을 위해 만든 커뮤니티 어플입니다. 
           고민거리에 대해 투표를 통하여 사용자의 결정을 도와줍니다.
+          <br>
           <h4 class="intro-bold"> What Did I do </h4>
           
+          <br>
           <h4 class="intro-bold"> Result </h4>
           
+          <br>
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Docker
 
@@ -95,14 +98,17 @@ content:
         description: | # this will include new lines to allow paragraphs
           <h4 class="intro-bold"> Description </h4>
           VPS 호스팅 서비스입니다.
+          <br>
           <h4 class="intro-bold"> What Did I do </h4>
           - 토스 페이먼츠를 이용한 결제 시스템 구현
           - 본인인증 시스템 구현
           - CI/CD 구현
           - 테스트 환경 구축
           - VPS 서비스 연동 구현
+          <br>
           <h4 class="intro-bold"> Result </h4>
           
+          <br>  
           <h4 class="intro-bold"> TechStack </h4>
           NestJs, TypeScript, Jest, Docker
   
