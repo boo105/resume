@@ -77,13 +77,42 @@ content:
           <h4 class="intro-bold"> What Did I do </h4>
           
           <h4 class="intro-bold"> Result </h4>
+          
+          <h4 class="intro-bold"> TechStack </h4>
+          SpringBoot, Java, Kotlin, PostgreSQL, Docker
 
+      - layout: left
+        title: EasyHost
+        link: 일단 비공개?
+          # link_text: Project Website
+          #        additional_links:
+          #          - title:  sproogen/modern-resume-theme
+          #            icon: fab fa-github
+          #            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          <h4 class="intro-bold"> Description </h4>
+          VPS 호스팅 서비스입니다.
+          <h4 class="intro-bold"> What Did I do </h4>
+          - 토스 페이먼츠를 이용한 결제 시스템 구현
+          - 본인인증 시스템 구현
+          - CI/CD 구현
+          - 테스트 환경 구축
+          - VPS 서비스 연동 구현
+          <h4 class="intro-bold"> Result </h4>
+          
+          <h4 class="intro-bold"> TechStack </h4>
+          NestJs, TypeScript, Jest, Docker
+  
+  
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Google Developer Student Clubs (GDSC)
+        title: Google Developer Student Clubs (GDSC DJU)
         link: https://web.gdsc-dju.com/
         # link_text: boringcompany.com
         sub_title: 1기 Member
@@ -112,11 +141,14 @@ content:
         description: | # this will include new lines to allow paragraphs
           최종 학점 : 4.31
 
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      냥냥
-
+      <h4 class="intro-bold"> SpringBoot </h4>
+      
+      <h4 class="intro-bold"> Java </h4>
+      
+      <h4 class="intro-bold"> DevOps </h4>
 
 # Footer
 footer_show_references: false
