@@ -44,7 +44,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   **~ 개발은 상상할 수 있는 꿈을 현실로 만드는 능력 ~**
   개발뿐만 아니라 협업 하는 과정과 기술도 매우 중요하다고 생각합니다!
