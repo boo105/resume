@@ -169,7 +169,7 @@ content:
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      <h4> 대진대학교 </h4>
+      <h4 class="intro-bold"> 대진대학교 </h4>
       <p> 2016.03 ~ 2023.02 </p>
       <p>
       <b> 컴퓨터공학전공 </b>
