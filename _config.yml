@@ -74,7 +74,6 @@ content:
           <h4 class="intro-bold"> Description </h4>
           평소에 결정을 잘 못하는 사람들을 위해 만든 커뮤니티 어플입니다.<br>
           고민거리에 대해 투표를 통하여 사용자의 결정을 도와줍니다.
-          <br>
           <h4 class="intro-bold"> What Did I do </h4>
           - 커뮤니티 API 구현
           - Exception Handler 구현
@@ -83,7 +82,6 @@ content:
           - 테스트 환경 구축
           - 개발 환경 분리
           - CI/CD 자동화 구축
-          <br>
           <h4 class="intro-bold"> Result </h4>
           ## 문제의 해결
           <p class="just-bold">라이브러리를 사용한 Oauth2 소셜로그인이 특정 플랫폼에서 대응 안되는 문제 발생</p>
@@ -96,7 +94,6 @@ content:
           <br>
           ## 해결 이후 얻은 Benefit
           - 다양한 환경의 플랫폼 지원          
-          <br>
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
 
@@ -145,7 +142,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           학생들이 개발 및 협업 능력을 기를 수 있도록
           다양한 프로젝트 및 활동을 하는 동아리입니다.
-          
+          <br>
+          <br>
           ## 동아리 문화
           - 모든 활동 내용을 멤버들에게 공유하고 있습니다.
           - 칭찬 시스템
