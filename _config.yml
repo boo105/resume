@@ -98,7 +98,7 @@ content:
           - 다양한 환경의 플랫폼 지원          
           <br>
           <h4 class="intro-bold"> TechStack </h4>
-          SpringBoot, Java, Kotlin, PostgreSQL, Docker
+          SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
 
       - layout: left
         title: EasyHost
