@@ -169,7 +169,7 @@ content:
           - 2021 항만 물류 인공지능 학습데이터 해커톤 - 최우수상
 
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: left
         title: 대진대학교
