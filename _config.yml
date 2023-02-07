@@ -93,10 +93,7 @@ content:
           따라서 클라이언트가 해당 문제를 해결하는데 불필요한 추가적인 개발을 하는데 막고자 백엔드에서 해결을 할 수 있는 방법을 찾아보았습니다.<br>
           Oauth2 전체적인 구조를 백엔드에서 처리하는 것이 아닌 클라이언트에서 Authorization 서버에 요청하여 소셜로그인을 성공 후 발급된 AccessToken을 
           백엔드에 넘겨주고 Resource 서버에 요청해 사용자 정보를 받아 로그인 및 회원가입 처리를 하는 것으로 다양한 플랫폼에서 사용할 수 있도록 해결을 하였습니다.<br>
-          해당 경험 이후 다른 기능들을 개발 할때 다양한 환경을 고려하면서 개발을 하게 되었습니다. 
-          <br>
-          <h2 class="small-title"> 해결 이후 얻은 Benefit </h2>
-          - 다양한 환경의 플랫폼 지원          
+          해당 경험 이후 다른 기능들을 개발 할때 다양한 환경을 고려하면서 개발을 하게 되었습니다.     
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
 
