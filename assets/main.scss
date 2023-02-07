@@ -33,6 +33,10 @@ ul {
   padding: 0;
 }
 
+ul>li {
+  padding-left: 1rem;
+}
+
 .intro-bold {
   font-weight: bold;
   margin-bottom: 0.5rem;
