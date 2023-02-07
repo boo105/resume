@@ -92,7 +92,7 @@ content:
           따라서 클라이언트가 해당 문제를 해결하는데 불필요한 추가적인 개발을 하는데 막고자 백엔드에서 해결을 할 수 있는 방법을 찾아보았습니다.<br>
           Oauth2 전체적인 구조를 백엔드에서 처리하는 것이 아닌 클라이언트에서 Authorization 서버에 요청하여 소셜로그인을 성공 후 발급된 AccessToken을 
           백엔드에 넘겨주고 Resource 서버에 요청해 사용자 정보를 받아 로그인 및 회원가입 처리를 하는 것으로 다양한 플랫폼에서 사용할 수 있도록 해결을 하였습니다.<br>
-          해당 경험으로 다른 기능들을 개발 할때 다양한 환경을 고려하면서 개발을 하게 되었습니다. 
+          해당 경험 이후 다른 기능들을 개발 할때 다양한 환경을 고려하면서 개발을 하게 되었습니다. 
           <br>
           ## 해결 이후 얻은 Benefit
           - 다양한 환경의 플랫폼 지원          
@@ -137,15 +137,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Google Developer Student Clubs (GDSC DJU)
+        title: Google Developer Student Clubs<br>(GDSC DJU)
         link: https://web.gdsc-dju.com/
         # link_text: boringcompany.com
         sub_title: 1기 Member
         caption: 2022.02 ~ 현재
         description: | # this will include new lines to allow paragraphs
+          학생들이 개발 및 협업 능력을 기를 수 있도록
+          다양한 프로젝트 및 활동을 하는 동아리입니다.
+          
+          ## 동아리 문화
+          - 모든 활동 내용을 멤버들에게 공유하고 있습니다.
+          - 칭찬 시스템
+          - 누구나 활동을 주도할 수 있습니다.
+          - 수평적인 문화
+          
+          ## 내가 활동한 것
           - 선인장 프로젝트
-          - 코틀린 및 자바 스터디
-          - 개발 이외에 활동
+          - 동아리 슬랙 봇 개발 및 관리
+          - 백엔드 스터디
+          - 개발 지식 공유
 
       - layout: left
         title: 지능정보시스템(인공지능) 연구실

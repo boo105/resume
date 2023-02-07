@@ -29,6 +29,10 @@ br {
   line-height: 170%;
 }
 
+a {
+  color: #477dca !important;
+}
+
 ul {
   padding-left: 2.5rem;
 }
@@ -39,6 +43,7 @@ ul>li {
 
 p.just-bold {
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .intro-bold {
