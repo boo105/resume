@@ -182,12 +182,6 @@ content:
       <b> 컴퓨터공학전공 </b>
       </p>
       최종 학점 : 4.31
-#      - layout: left
-#        title: 대진대학교
-#        caption: 2016.03 - 2023.02
-#        sub_title: 컴퓨터공학전공
-#        description: | # this will include new lines to allow paragraphs
-#          최종 학점 : 4.31
 
   - title: Skills
     layout: text
@@ -198,7 +192,7 @@ content:
       - 테스트 환경을 구축할 수 있습니다.
       
       <h4 class="intro-bold"> Java </h4>
-      -
+      - Junit를 사용해 단위테스트를 할 수 있습니다.
       - 기초적인 Reactive 프로그래밍 사용할 수 있습니다.
       
       <h4 class="intro-bold"> Database </h4>
