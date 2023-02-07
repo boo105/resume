@@ -9,10 +9,6 @@ body, h1, h2, h3, h4, h5, h6, input, textarea, select {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.intro-bold {
-  font-weight: 400;
-}
-
 h3 {
   font-weight: 500;
   text-align: left;
@@ -24,6 +20,15 @@ html {
 body {
   padding-bottom: 2rem;
 }
+
+br {
+  line-height: 170%;
+}
+
+.intro-bold {
+  font-weight: 400;
+}
+
 .footer-container {
   display: none;
 }
