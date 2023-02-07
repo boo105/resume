@@ -138,13 +138,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           학생들이 개발 및 협업 능력을 기를 수 있도록
           다양한 프로젝트 및 활동을 하는 동아리입니다.
-          <h2 class="small-title"> 동아리 문화 </h2>
+          <h4 class="intro-bold"> 동아리 문화 </h4>
           - 모든 활동 내용을 멤버들에게 공유하고 있습니다.
           - 칭찬 시스템
           - 누구나 활동을 주도할 수 있습니다.
           - 수평적인 문화
           
-          <h2 class="small-title"> 내가 활동한 것 </h2>
+          <h4 class="intro-bold"> 내가 활동한 것 </h4>
           - 선인장 프로젝트
           - 동아리 슬랙 봇 개발 및 관리
           - 백엔드 스터디
@@ -156,7 +156,16 @@ content:
         sub_title: 랩장
         caption: 2016.08 ~ 2023.02
         description: | 
-          인공지능에 대해 다양한 프로젝트와 스터디를 진행하는 연구실입니다.
+          인공지능에 대해 다양한 프로젝트와 활동을 진행하는 연구실입니다.
+          
+          <h4 class="intro-bold"> 협업 방식을 바꾸다 </h4>
+          기존 연구실의 프로젝트 진행 방식은 한글 서류 또는 카카오톡으로 단순하게 적어두는게 전부였습니다.
+          이로 인해 회의를 해도 무엇을 개발해야 하는지, 프로젝트의 최종 목표가 무엇인지 까먹는 일이 빈번하게 발생하였고<br>
+          이러한 문제를 해결하기 위해 연구실 담당교수님에게 요청해 Jira와 스크럼 방식으로 연구실에 모든 프로젝트의 협업 방식을 변경하도록 하였습니다.
+          
+          <h2 class="small-title"> 참여 프로젝트 </h2>
+          - Bllearn 프로젝트
+          - 교내 SW 우수상
           - 2021 항만 물류 인공지능 학습데이터 해커톤 - 최우수상
 
   - title: Education # Title for the section
