@@ -83,7 +83,7 @@ content:
           - 개발 환경 분리
           - CI/CD 자동화 구축
           <h4 class="intro-bold"> Result </h4>
-          ## 문제의 해결
+          <h2 class="small-title"> 문제의 해결 </h2>
           <p class="just-bold">라이브러리를 사용한 Oauth2 소셜로그인이 특정 플랫폼에서 대응 안되는 문제 발생</p>
           소셜로그인 기능을 라이브러리를 사용하여 웹사이트 환경으로만 개발을 진행하였기 때문에
           안드로이드에서 소셜로그인 기능을 지원하려면 안드로이드 측에서 추가적인 개발이 필요하였습니다.<br>
@@ -92,7 +92,7 @@ content:
           백엔드에 넘겨주고 Resource 서버에 요청해 사용자 정보를 받아 로그인 및 회원가입 처리를 하는 것으로 다양한 플랫폼에서 사용할 수 있도록 해결을 하였습니다.<br>
           해당 경험 이후 다른 기능들을 개발 할때 다양한 환경을 고려하면서 개발을 하게 되었습니다. 
           <br>
-          ## 해결 이후 얻은 Benefit
+          <h2 class="small-title"> 해결 이후 얻은 Benefit </h2>
           - 다양한 환경의 플랫폼 지원          
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
@@ -111,20 +111,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           <h4 class="intro-bold"> Description </h4>
           VPS 호스팅 서비스입니다.
-          <br>
           <h4 class="intro-bold"> What Did I do </h4>
           - 토스 페이먼츠를 이용한 결제 시스템 구현
           - 본인인증 시스템 구현
           - VPS 서비스 연동 구현
           - CI/CD 자동화 구축
           - 테스트 환경 구축
-          <br>
           <h4 class="intro-bold"> Result </h4>
-          ## 서비스의 신뢰성 검증
+          <h2 class="small-title"> 서비스의 신뢰성 검증 </h2>
           처음 프로젝트에 투입되었을 때는 테스트 환경이 거의 갖추어져 있지 않아서 개발 버전을 배포할때마다 비즈니스 로직에 버그가 존재하는 경우가 자주 발생하였습니다.<br>
           이는 서비스의 안정성이 불안정하다는 뜻으로도 이어질 수 있기 때문에 테스트 환경을 구축을 하여 신뢰성 있는 서비스 제공을 하였습니다.          
-          
-          <br>  
           <h4 class="intro-bold"> TechStack </h4>
           NestJs, TypeScript, Jest, Docker
   
@@ -142,15 +138,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           학생들이 개발 및 협업 능력을 기를 수 있도록
           다양한 프로젝트 및 활동을 하는 동아리입니다.
-          <br>
-          <br>
-          ## 동아리 문화
+          <h2 class="small-title"> 동아리 문화 </h2>
           - 모든 활동 내용을 멤버들에게 공유하고 있습니다.
           - 칭찬 시스템
           - 누구나 활동을 주도할 수 있습니다.
           - 수평적인 문화
           
-          ## 내가 활동한 것
+          <h2 class="small-title"> 내가 활동한 것 </h2>
           - 선인장 프로젝트
           - 동아리 슬랙 봇 개발 및 관리
           - 백엔드 스터디
