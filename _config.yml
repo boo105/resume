@@ -186,21 +186,29 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <h4 class="intro-bold"> SpringBoot </h4>
+      <div class="skill">
       - SpringBoot를 사용해 서비스를 만든 경험을 가지고 있습니다. 
       - WebMVC, WebFlux, Spring Cloud(MSA) 사용 경험을 가지고 있습니다.
       - 테스트 환경을 구축할 수 있습니다.
+      </div>
       
       <h4 class="intro-bold"> Java </h4>
+      <div class="skill">
       - Junit를 사용해 단위테스트를 할 수 있습니다.
       - 기초적인 Reactive 프로그래밍 사용할 수 있습니다.
+      </div>
       
       <h4 class="intro-bold"> Database </h4>
+      <div class="skill">
       - MySQL, PostgreSQL, MongoDB 사용 경험을 가지고 있습니다.
       - Redis로 Cache 사용 경험을 가지고 있습니다.
+      </div>
       
       <h4 class="intro-bold"> DevOps </h4>
+      <div class="skill">
       - GitHub Actions를 사용해 CI/CD를 자동화 할 수 있습니다.
       - Jira, Slack, Notion을 사용해 프로젝트 관리 경험을 가지고 있습니다.
+      </div>
 
 # Footer
 footer_show_references: false
