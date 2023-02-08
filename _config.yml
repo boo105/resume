@@ -97,7 +97,7 @@ content:
           하나의 Service에는 하나의 Repository를 가져야한다는 규칙을 세우고 Service를 분리 시켜서 책임(기능)을 분할하였습니다.
           이러한 분리로 인해 특정 Service에서 타 Service의 기능이 필요할 때가 있었는데 이는 Controller 에서 Service들의 기능을 조합하는 식으로 구조를 재정의하였습니다.<br>
           관심사의 분리로 해당 문제를 해결한 이후 Service의 기능들이 단순해져서 비즈니스 로직을 짜기가 매우 편해졌습니다. 또한 MVC 계층간 구조가 명확해져서 데이터의 전달이 훨씬 간단해졌습니다.<br>
-          아키텍처 설계에 대한 이해력 부족으로 인해 이러한 문제가 발생을 하였기 때문에 아키텍처의 중요성을 알게 되었습니다.
+          아키텍처 설계, 객체지향 패러다임 대한 이해력 부족으로 이러한 문제가 발생을 하였기 때문에 아키텍처, 객체지향 패러다임의 중요성을 알게되었습니다.
 
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
