@@ -174,16 +174,6 @@ content:
           - 여행고수 프로젝트
           - 2021 항만 물류 인공지능 학습데이터 해커톤 - 최우수상
 
-  - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      <h4 class="intro-bold"> 대진대학교 </h4>
-      <p class="education"> 2016.03 ~ 2023.02 </p>
-      <p class="education">
-      <b> 컴퓨터공학전공 </b>
-      </p>
-      최종 학점 : 4.31 / 4.5
-
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -211,6 +201,16 @@ content:
       <li> GitHub Actions를 사용해 CI/CD를 자동화 할 수 있습니다. </li>
       <li> Jira, Slack, Notion을 사용해 프로젝트 관리 경험을 가지고 있습니다. </li>
       </ul>
+
+  - title: Education # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <h4 class="intro-bold"> 대진대학교 </h4>
+      <p class="education"> 2016.03 ~ 2023.02 </p>
+      <p class="education">
+      <b> 컴퓨터공학전공 </b>
+      </p>
+      최종 학점 : 4.31 / 4.5
 
 # Footer
 footer_show_references: false
