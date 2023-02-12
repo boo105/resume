@@ -89,14 +89,21 @@ content:
           - 백엔드에서 해당 AccessToken을 가지고 Resource 서버에 요청해 사용자 정보를 받아 소셜로그인 구현
           - Resource 서버에 요청해 소셜로그인 기능을 가진 API 구현
           
-          <h2 class="small-title">Service Layer 책임 문제</h2>
-          프로젝트를 진행하면서 하나의 Service에 너무많은 책임(기능)을 가져 코드의 가독성이 낮고 이는 즉 스파게티 코드가 될 가능성이 매우 컸습니다.<br>
-          이러한 문제들로 인해 개발을 하면서 비즈니스 로직 수정과 확장이 매우 힘들어 큰 스트레스로 다가왔고 이를 해결하기 위해 Service Layer 관심사의 분리를 통해 해결하였습니다.<br>
-          Service에는 여러 Repository를 가지고 있었는데 이는 즉 다양한 도메인이 존재한다는 뜻이므로
-          하나의 Service에는 하나의 Repository를 가져야한다는 규칙을 세우고 Service를 분리 시켜서 책임(기능)을 분할하였습니다.
-          이러한 분리로 인해 특정 Service에서 타 Service의 기능이 필요할 때가 있었는데 이는 Controller 에서 Service들의 기능을 조합하는 식으로 구조를 재정의하였습니다.<br>
-          관심사의 분리로 해당 문제를 해결한 이후 Service의 기능들이 단순해져서 비즈니스 로직을 짜기가 매우 편해졌습니다. 또한 MVC 계층간 구조가 명확해져서 데이터의 전달이 훨씬 간단해졌습니다.<br>
-          아키텍처 설계, 객체지향 패러다임 대한 이해력 부족으로 이러한 문제가 발생을 하였기 때문에 아키텍처, 객체지향 패러다임의 중요성을 알게되었습니다.
+          <h2 class="small-title">Service Layer 책임 문제</h2>          
+          - 하나의 Service에는 많은 책임(기능)을 가지고 있어 스파게티 코드가 될 위험이 높았음
+          - 하나의 Service에는 여러 Repository를 가지고 있기 때문에 많은 책임(기능)을 가지고 있음
+          - 하나의 Service에는 하나의 Repository를 가져야한다는 규칙 생성
+          - 해당 규칙으로 Service들을 분리시켜 책임(기능)을 분할해 해결
+          - 해당 규칙으로 인해 특정 Service에서 타 Service 기능이 필요함에 따라 계층간 구조 개선이 필요
+          - Controller에서 특정 Service의 결과를 타 Service로 전달해주는 조합 방식으로 구조를 정의하여 해결
+          
+          <h4 class="intro-bold"> What Did I Learned </h4>
+          - ㄴ
+          - ㄴ
+          - ㄴ
+          - ㄴ
+          - 객체지향 패러다임
+          - 아키텍처 설계
 
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
