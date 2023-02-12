@@ -98,12 +98,11 @@ content:
           - Controller에서 특정 Service의 결과를 타 Service로 전달해주는 조합 방식으로 구조를 정의하여 해결
           
           <h4 class="intro-bold"> What Did I Learned </h4>
-          - ㄴ
-          - ㄴ
-          - ㄴ
-          - ㄴ
-          - 객체지향 패러다임
-          - 아키텍처 설계
+          - Oauth2 방식
+          - 민감 정보 관리
+          - 개발 환경 분리
+          - 프로젝트 협업 방식
+          - MVC 아키텍처 설계
 
           <h4 class="intro-bold"> TechStack </h4>
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
@@ -131,7 +130,13 @@ content:
           <h4 class="intro-bold"> Result </h4>
           <h2 class="small-title"> 서비스 품질 개선 </h2>
           처음 프로젝트에 투입되었을 때는 테스트 환경이 거의 갖추어져 있지 않아서 개발 버전을 배포할때마다 비즈니스 로직에 버그가 존재하는 경우가 자주 발생하였습니다.<br>
-          이는 서비스의 안정성이 불안정하다는 뜻으로도 이어질 수 있기 때문에 테스트 환경을 구축을 하여 신뢰성 있는 서비스 제공을 하였습니다.          
+          이는 서비스의 안정성이 불안정하다는 뜻으로도 이어질 수 있기 때문에 테스트 환경을 구축을 하여 신뢰성 있는 서비스 제공을 하였습니다.  
+          
+          <h4 class="intro-bold"> What Did I Learned </h4>
+          - API 문서의 중요성
+          - 테스트 코드의 중요성
+          - 
+          
           <h4 class="intro-bold"> TechStack </h4>
           NestJs, TypeScript, Jest, MariaDB, Docker
   
