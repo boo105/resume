@@ -74,7 +74,7 @@ content:
           <h4 class="intro-bold"> Description </h4>
           평소에 결정을 잘 못 하는 사람들을 위해 만든 커뮤니티 어플입니다.<br>
           고민거리에 대해 투표를 통하여 사용자의 결정을 도와줍니다.
-          <h4 class="intro-bold"> What Did I do </h4>
+          <h4 class="intro-bold"> What Did I Do </h4>
           - 커뮤니티 API 구현
           - Exception Handler 구현
           - 사용자 인증 구현
@@ -121,7 +121,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           <h4 class="intro-bold"> Description </h4>
           쉽게 일반 서버, 게임 서버 등의 구축을 위한 VPS 호스팅 서비스입니다.
-          <h4 class="intro-bold"> What Did I do </h4>
+          <h4 class="intro-bold"> What Did I Do </h4>
           - 토스 페이먼츠를 이용한 결제 시스템 구현
           - 본인인증 시스템 구현
           - VPS 서비스 연동 구현
