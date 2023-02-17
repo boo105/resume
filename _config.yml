@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+#favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -83,15 +83,15 @@ content:
           - 개발 환경 분리
           - CI/CD 자동화 구축
           <h4 class="intro-bold"> Result </h4>
-          <h2 class="small-title">라이브러리를 사용한 Oauth2 소셜로그인이 특정 플랫폼에서 대응 안되는 문제 발생</h2>
-          - 기존에는 백엔드에서 인증, 인가, 자원 요청 단계를 모두 처리하였음 (안드로이드에서는 해당 방식 대응이 어렵다)
-          - 클라이언트가 인증/인가의 단계를 수행하도록 Authorization 서버에 요청해 AccessToken 발급 후 백엔드에 요청
+          <h2 class="small-title">소셜로그인 기능에 대응이 가능한 플랫폼 확장</h2>
+          - 기존에는 백엔드에서 인증, 인가, 자원 요청 단계를 모두 처리하였기 때문에 안드로이드에서는 해당 방식 대응이 어렵다
+          - 이를 해결하기 위해 클라이언트가 인증/인가의 단계를 수행하도록 Authorization 서버에 요청해 AccessToken 발급 후 백엔드에 요청
           - 백엔드에서 해당 AccessToken을 가지고 Resource 서버에 요청해 사용자 정보를 받아 소셜로그인 구현
-          - Resource 서버에 요청해 소셜로그인 기능을 가진 API 구현
+          - Resource 서버에 요청해 특정 플랫폼을 위한 소셜로그인 기능을 가진 API 구현
           
-          <h2 class="small-title">Service Layer 책임 문제</h2>          
-          - 하나의 Service에는 많은 책임(기능)을 가지고 있어 스파게티 코드가 될 위험이 높았음
+          <h2 class="small-title">프로젝트 아키텍처 개선</h2>  
           - 하나의 Service에는 여러 Repository를 가지고 있기 때문에 많은 책임(기능)을 가지고 있음
+          - 하나의 Service에는 많은 책임(기능)을 가지고 있어 스파게티 코드가 될 위험이 높았음
           - 하나의 Service에는 하나의 Repository를 가져야한다는 규칙 생성
           - 해당 규칙으로 Service들을 분리시켜 책임(기능)을 분할해 해결
           - 해당 규칙으로 인해 특정 Service에서 타 Service 기능이 필요함에 따라 계층간 구조 개선이 필요
