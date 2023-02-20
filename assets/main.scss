@@ -94,13 +94,17 @@ p.just-bold {
 }
 
 @media screen and (max-width: 768px){
+  .text-container {
+    .clearfix {
+      .col-md-12 {
+        padding-left: 1rem;
+        border-left: 3px solid rgb(255, 0, 128);
+      }
+    }
+  }
+
   .clearfix {
     .content {
-      padding-left: 1rem;
-      border-left: 3px solid rgb(255, 0, 128);
-    }
-
-    .col-md-12 {
       padding-left: 1rem;
       border-left: 3px solid rgb(255, 0, 128);
     }
