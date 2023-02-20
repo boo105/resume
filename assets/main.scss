@@ -81,3 +81,10 @@ p.just-bold {
 .details {
   justify-content: normal !important;
 }
+
+@media screen and (max-width: 1024px){
+  .content {
+    padding-left: 1rem;
+    border-left: 3px solid rgb(255, 0, 128);
+  }
+}
