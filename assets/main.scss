@@ -83,7 +83,7 @@ p.just-bold {
 }
 
 @media screen and (max-width: 768px){
-  .content .clearfix {
+  .content, .clearfix {
     padding-left: 1rem;
     border-left: 3px solid rgb(255, 0, 128);
   }
