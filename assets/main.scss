@@ -80,6 +80,16 @@ p.just-bold {
 
 .details {
   justify-content: normal !important;
+
+  h4 {
+    position: sticky;
+    top: 1rem;
+  }
+
+  p {
+    position: sticky;
+    top: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px){
