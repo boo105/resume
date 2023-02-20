@@ -99,3 +99,9 @@ p.just-bold {
     border-left: 3px solid rgb(255, 0, 128);
   }
 }
+
+:root {
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff0080;
+  }
+}
