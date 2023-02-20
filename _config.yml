@@ -59,8 +59,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 선인장
-        caption: 2022.01 ~ 2023.02
+        title: <div class="sticky">선인장
+        caption: 2022.01 ~ 2023.02</div>
 #        link: 일단 비공개?
         # link_text: Project Website
 #        additional_links:
