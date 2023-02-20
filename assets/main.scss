@@ -81,15 +81,9 @@ p.just-bold {
 .details {
   justify-content: normal !important;
 
-  h4 {
+  .sticky {
     position: sticky;
-    top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  p {
-    position: sticky;
-    top: 3rem;
+    top: 2rem;
   }
 }
 

@@ -59,8 +59,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-#        title: 선인장
-        caption: <div class="sticky"> <h4>선인장</h4> <p> 2022.01 ~ 2023.02</p> </div>
+#        title:
+        caption: <div class="sticky"> <h4>선인장</h4> <p> 2022.01 ~ 2023.02</p> </div> # 이거 편법임........... 그냥 템플릿 안쓰고 내가 만들걸..
 #        link: 일단 비공개?
         # link_text: Project Website
 #        additional_links:
@@ -108,8 +108,8 @@ content:
           SpringBoot, Java, Kotlin, PostgreSQL, Redis , Docker
 
       - layout: left
-        title: EasyHost
-        caption: 2022.06 ~ 2022.08
+#        title: EasyHost
+        caption: <div class="sticky"> <h4> EasyHost </h4> <p>2022.06 ~ 2022.08</p> </div>
           # link_text: Project Website
           #        additional_links:
           #          - title:  sproogen/modern-resume-theme
