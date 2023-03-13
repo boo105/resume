@@ -231,12 +231,12 @@ content:
   - title: Certificate # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      <div class="content">
+      <div class="certificate-content">
       <h4 class="intro-bold"> 정보처리기사 </h4>
       <p class="education"> 2022.06 </p>
       </div>
       
-      <div class="content">
+      <div class="certificate-content">
       <h4 class="intro-bold"> 정보처리기능사 </h4>
       <p class="education"> 2017.12 </p>
       </div>
