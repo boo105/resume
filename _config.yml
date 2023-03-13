@@ -228,6 +228,29 @@ content:
       <p>최종 학점 : 4.31 / 4.5</p>
       <div class = "content">
 
+  - title: Certificate # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <div class="content">
+      <h4 class="intro-bold"> 정보처리기사 </h4>
+      <p class="education"> 2022.06 </p>
+      <div class = "content">
+      
+      <div class="content">
+      <h4 class="intro-bold"> 정보처리기능사 </h4>
+      <p class="education"> 2017.12 </p>
+      <div class = "content">
+
+  - title: Military Service # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <div class="content">
+      <h4 class="intro-bold"> 육군 포병 만기제대 </h4>
+      <p class="education"> 2017.02 ~ 2018.11 </p>
+      <div class = "content">
+
+
+
 
 # Footer
 footer_show_references: false
